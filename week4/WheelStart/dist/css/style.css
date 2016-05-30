@@ -1,0 +1,27 @@
+html, body {
+    background-color: #70CF51;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow:hidden;
+    margin:0px; padding:0px;
+    background-image: url('../images/bg.png');
+    background-repeat: repeat;
+}
+
+body * {
+    position: absolute;
+    display: block;
+    margin:0px; padding:0px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+
+car {
+	width:400px; min-height:124px;
+	background-image: url('../images/car.png');
+}
+
+wheel {
+    width:62px; height:62px;
+    background-image: url('../images/wheel.png');
+}
