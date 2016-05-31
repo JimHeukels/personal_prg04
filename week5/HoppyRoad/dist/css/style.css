@@ -1,0 +1,42 @@
+html, body {
+    background-color: #70CF51;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow:hidden;
+    margin:0px; padding:0px;
+    background-image: url('../images/grass.png');
+    background-size: cover;
+}
+
+body * {
+    position: absolute;
+    display: block;
+    margin:0px; padding:0px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+level {
+    left:calc(50% - 512px);
+    top:calc(50% - 384px);
+    width:1024px; height:768px;
+    background-image: url('../images/road.png');
+    border-radius: 15px;
+    overflow: hidden;
+    border:3px solid white;
+    box-shadow: 12px 12px 0px rgba(0, 0, 0, 0.5);
+}
+
+car {
+	width:168px; min-height:108px;
+	background-image: url('../images/car.png');
+}
+
+truck {
+	width:281px; min-height:155px;
+	background-image: url('../images/truck.png');
+}
+
+player {
+    width:61px; height:102px;
+    background-image: url('../images/player.png');
+}
